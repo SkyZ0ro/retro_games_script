@@ -39,10 +39,33 @@ python manage_cheats.py
 python merge_xml.py
 ```
 
+### 4. `add_eng_suffix.py`
+**Назначение:** Добавление суффикса "(En)" к названиям ROM-файлов  
+**Функции:**
+- Автоматически определяет английские версии игр
+- Добавляет суффикс "(En)" к названиям файлов
+- Сохраняет оригинальную структуру названия
+
+**Использование:**
+```bash
+python add_eng_suffix.py
+```
+
+### 5. `remove_duplicates.py`
+**Назначение:** Удаление дубликатов ROM-файлов  
+**Функции:**
+- Находит идентичные ROM-файлы по контрольной сумме
+- Удаляет дубликаты, оставляя одну копию
+- Поддерживает различные форматы ROM
+
+**Использование:**
+```bash
+python remove_duplicates.py
+```
 ## Установка
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/ваш-username/retro_games_script.git
+git clone https://github.com/SkyZ0ro/retro_games_script
 cd retro_games_script
 ```
 
